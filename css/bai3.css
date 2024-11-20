@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+  }
+  
+  p {
+    text-align: justify;
+    margin: 15px 0;
+  }
+  
+  .image-container {
+    float: right;
+    width: 20%; /* Chiếm 20% chiều rộng của khung */
+    margin: 0 0 10px 20px; /* Khoảng cách với văn bản */
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .caption {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+    color: #666;
+  }
