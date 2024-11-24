@@ -9,7 +9,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 10px;
-    background: #fff;
+    
     border: 1px solid #ccc;
     border-radius: 8px;
     
@@ -20,18 +20,14 @@ body {
     margin: 15px 0;
   }
   
-  .image-container {
+  .bet {
     float: right;
-    width: 20%; /* Chiếm 20% chiều rộng của khung */
-    margin: 0 0 10px 20px; /* Khoảng cách với văn bản */
-    text-align: center;
     border: 1px solid #ccc;
     padding: 5px;
-    background-color: #f9f9f9;
-    border-radius: 4px;
+    width: 20%;
   }
   
-  .image-container img {
+  .bet img {
     max-width: 100%;
     height: auto;
     display: block;
